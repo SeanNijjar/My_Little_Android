@@ -1,0 +1,130 @@
+=================================================
+== Main Developer Location
+names and preference here:
+
+=================================================
+http://developer.android.com/index.html
+
+
+=================================================
+== Android Platform Design Principles
+names and preference here:
+
+=================================================
+http://developer.android.com/design/index.html
+
+
+=================================================
+== Application Fundamentals
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/fundamentals.html
+
+
+
+
+--------------------------------------------------
+
+
+=================================================
+== Activity
+Everyone should read this
+=================================================
+http://developer.android.com/guide/topics/fundamentals/activities.html
+
+
+
+=================================================
+== User Interface
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/ui/index.html
+
+
+=================================================
+== Application Resources
+names and preference here:
+
+
+=================================================
+http://developer.android.com/guide/topics/resources/index.html
+
+
+=================================================
+== Data Storage
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/data/data-storage.html
+
+
+=================================================
+== Graphics
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/graphics/index.html
+
+
+
+=================================================
+== Animation
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/graphics/animation.html
+
+
+=================================================
+== Renderscript
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/renderscript/index.html
+
+
+
+=================================================
+== Multimedia and Camera
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/media/index.html
+
+
+
+=================================================
+== Wifi Direct
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/wireless/wifip2p.html
+
+
+
+=================================================
+== Session Initiation Protocol
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/network/sip.html
+
+
+=================================================
+== Search
+names and preference here:
+
+=================================================
+http://developer.android.com/guide/topics/network/sip.html
+
+
+=================================================
+== Testing
+Everyone should read this thoroughly
+
+=================================================
+http://developer.android.com/guide/topics/testing/index.html
+
+

@@ -1,0 +1,9 @@
+Here are some programming style guidelines (add any if you think they are valueable)
+
+- When checking for equality with a constant value, put the constant on left-hand side of statement in the event of accidentally only typing lhs = rhs -> this will give a compile time error and will make it an easy fix.
+
+
+- When typing out mathematical or comparison statements, leave space between the operator and the operands for readability.
+
+- Always put braces around loops and branching logic (even if they are only a line long). This makes adding lines later easier and lessons any possible ambiguity if indentation is somehow messed up.
+
