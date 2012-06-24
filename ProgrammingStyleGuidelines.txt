@@ -2,8 +2,79 @@ Here are some programming style guidelines (add any if you think they are valuea
 
 - When checking for equality with a constant value, put the constant on left-hand side of statement in the event of accidentally only typing lhs = rhs -> this will give a compile time error and will make it an easy fix.
 
+e.g. 
+BAD: if(my_variable == 3) { ... }
+
+GOOD: if(3 == my_variable) { ... }
+
+WHY: This if good if I accidentally type if(3 = my_variable) { ... } because I will receive a compile time error
+
+
 
 - When typing out mathematical or comparison statements, leave space between the operator and the operands for readability.
+- Also try to separate each side of the equality by brackets when dealing with complicated relationships - better yet, break it up on the previous lines if possible.
+
+e.g.
+
+BAD: my_variable=x1>>x2/x3>x4/x5;
+
+DECENT: my_boolean_variable = x1 >> x2 / x3 > x4 / x5;
+
+GOOD: 	my_boolean_variable = (x1 >> x2 / x3) > (x4 /x5);
+
+BETTER: my_boolean_variable = (x1 >> (x2 / x3)) > (x4 / x5);
+
+BEST: 	number_of_bits_to_shift = x2 / x3;
+	my_boolean_variable = (x1 >> number_of_bits_to_shift) > (x4 / x5);
+
+
 
 - Always put braces around loops and branching logic (even if they are only a line long). This makes adding lines later easier and lessons any possible ambiguity if indentation is somehow messed up.
 
+e.g. 
+BAD:	if(condition)
+		do_something();
+	else if(some_other_condition)
+		if(a_nested_condition)
+			nested_function();
+	else
+		who_do_i_belong_to();
+
+
+
+GOOD	if(condition) {
+		do_something();
+	}
+	else if(some_other_condition) {
+		if(a nested_condition) {
+			nested_function();
+		}
+	}
+	else {
+		who_do_i_belong_to();
+	}
+
+
+BAD:	if(condition)
+		this();
+	else
+		that();
+
+GOOD:	if(condition) {
+		this();
+	}
+	else {
+		that();
+	}
+
+
+-Use descriptive and accurate names for variables - even if the names may seem a little long. A 20 character variable name is better than a 2 character variable name if I can tell exactly what the code is doing by glancing at the name. 
+
+e.g.
+BAD:		int t;
+STILL BAD:	int temp;
+
+GOOD:		int active_players_array_iterator;
+
+
+IDEALLY, your code should comment itself (i.e. Variable names are set up in such a way as to be close to reading english)
